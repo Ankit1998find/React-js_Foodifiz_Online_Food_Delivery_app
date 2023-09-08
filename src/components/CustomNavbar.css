@@ -1,0 +1,61 @@
+.Buttons{
+    height:max-content;
+    width:100px;
+    background-color:rgb(199, 148, 10); 
+}
+
+.fa-shopping-cart{
+  position: relative;
+  top:5px;
+}
+
+
+.cartlogo{
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  top:5px;
+  text-decoration: none;
+  color:rgb(199, 148, 10);
+}
+
+.cartlogo sup{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-item a{
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: chocolate;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color:rgb(199, 148, 10);
+}
+a {
+  color:rgb(199, 148, 10); 
+  text-decoration:none;
+}
+
+a:hover{
+  color:rgb(199, 148, 10); 
+  text-decoration:none;
+
+}
+
+ .dropdown-menu {
+  position: static !important;
+  width: 30px !important;
+  right:2rem !important;
+}
+
+@media(min-width: 992px) and (max-width:1024px){
+  navbar-nav .dropdown-menu {
+    position: static;
+    width: 30px;
+  }
+ 
+}

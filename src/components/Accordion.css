@@ -1,0 +1,35 @@
+.accordion {
+    border: 1px solid #ccc;
+    
+  }
+  
+  .accordion-section {
+    border-top: 1px solid #ccc;
+    
+   
+  }
+  
+  .accordion-header {
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-top: 2px;
+    cursor: pointer;
+    background-color:#ecb10e;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .accordion-header:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .accordion-header.expanded {
+    background-color: #d3d3d3;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+  }

@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,500;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,600&family=Roboto+Slab&family=Ubuntu:wght@300;400&display=swap');
+
+
+.single-card{
+  padding: 1rem !important;
+ 
+  max-height:max-content !important;
+  max-width:max-content !important;
+  width: 400px !important;
+  border-radius: 20px!important;
+ 
+  cursor: pointer !important;
+  margin: auto !important;
+
+
+}
+
+.menucard{
+  height: auto;
+  width:auto;
+  margin-bottom: 15rem;
+}
+
+
+.single-card:hover{
+    transition-timing-function: ease-in;
+    transition: 0.9s;
+    transform: none !important;;
+  }
+
+  .image img {
+    width: 340px;
+    height: 200px;
+    padding: 22px;
+    border-radius: 15px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #888888;
+    border: 1px solid #FF8C00;
+}
+
+.single-card-header .image{
+    margin: auto;
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+    
+  }
+
+  
+
+  .food-price{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: relative;
+    top:1rem;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .food-rating{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position:relative;
+    top:1rem;
+    padding:10px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+  
+   
+  }
+
+
+
+  .single-food-description{
+    text-align: center;
+    padding:10px 5px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #FF8C00;
+    text-align: justify;
+    
+    
+  }
+  
+  
+  .single-card-body{
+    max-width: 310px;
+  }
+
+  .single-image img{
+    width: 291px;
+    height: 200px;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #888888;
+    border: 1px solid #FF8C00
+  }
+
+  
+
+  .single-cart-data-fade{
+    max-height: 400px!important;
+    max-width: 406px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .single-cart-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    
+
+  }
+
+  .single-cart-description{
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1rem;
+    line-break:auto;
+    margin-top: 1rem;
+    width: 100px;
+  }
+
+  .single-cart-quantity{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+  }
+
+  .single-cart-price{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1rem;
+    line-break:auto;
+    position: relative;
+  
+  }
+
+  .single-cart-totalprice{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1rem;
+    line-break:auto;
+    position: relative;
+    top:3rem;
+    padding: 0.5rem;
+
+  }
+  
+
+ .singlemenu{
+  position: relative !important;
+  right: 1rem !important;;
+ }
+
+ .single-title p{
+  text-align: center;
+  word-spacing:normal;
+  line-break: auto;
+  font-size:18px;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px;
+  line-height: 1.5rem;
+  height: auto;
+  max-height: 200px;
+  overflow: scroll;
+  width:200px;
+  text-align: justify;
+  
+
+ }
+
+ @media(max-width: 480px){
+  .fade-in-element{
+    width: 320px!important;
+    overflow: scroll;
+    margin: auto ;
+    position: relative;
+    left: 0.5rem !important;
+    padding:  10px !important;
+    background-color: black;
+  }
+  .single-cart-data-fade{
+    padding: 5px;
+  }
+
+  .single-cart-description{
+    position: inherit;
+    top:0px;
+    max-width: 100px;
+    max-width: max-content;
+    padding: 0px 12px;
+
+  }
+  .single-cart-price{
+    padding: 0px 10px !important;
+  }
+
+  .single-cart-totalprice{
+    padding: 10px;
+  }
+ }
+
+
+
+ @media(min-width:481px) and (max-width: 767px) {
+  .fade-in-element{
+    width: 320px!important;
+    margin: auto ;
+    position: relative;
+   
+    left: 0.5rem !important;
+    padding:  10px !important;
+    background-color: black;
+
+  }
+  .single-cart-data-fade{
+    padding: 5px;
+  }
+
+  .single-cart-description{
+    position: inherit;
+    top:0px;
+    max-width: 100px;
+    max-width: max-content;
+    padding: 0px 12px;
+
+  }
+  .single-cart-price{
+    padding: 0px 10px !important;
+  }
+
+  .single-cart-totalprice{
+    padding: 10px;
+  }
+
+
+ }
+
+ @media(min-width:768px) and (max-width:1024px){
+  .fade-in-element{
+    width: 320px!important;
+    margin: auto ;
+    position: relative;
+    top:460px !important;
+    float:right;
+    margin-right: 270px;
+    
+   
+    padding:  10px !important;
+    background-color: black;
+  }
+  .single-cart-data-fade{
+    padding: 5px;
+  }
+
+  .single-cart-description{
+    position: inherit;
+    top:0px;
+    max-width: 100px;
+    max-width: max-content;
+    padding: 0px 12px;
+
+  }
+  .single-cart-price{
+    padding: 0px 10px !important;
+  }
+
+  .single-cart-totalprice{
+    padding: 10px;
+  }
+ }
+
+ 

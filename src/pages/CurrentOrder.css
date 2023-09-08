@@ -1,0 +1,106 @@
+.order-container{
+    width:500px;
+    max-width: max-content;
+    height:auto;
+    max-height: max-content;
+    background-color: azure;
+    margin-bottom: 100px;
+    overflow: scroll;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.order-details{
+    max-width:max-content;
+    max-height: 200px;
+    display: inline-block;
+   
+  
+}
+
+.customer-name {
+    height:auto;
+    width: auto;
+    max-width:auto;
+    padding: 10px;
+    background-color:chocolate;
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.customer-address{
+ height:auto;
+ width: auto;
+ background-color:chocolate;
+ color:white;
+ border-radius: 10px;
+ text-align: center;
+ margin-top: 2px;
+ padding: 10px;
+ line-break: auto;
+
+}
+
+.customer-contact{
+    height:auto;
+    width: auto;
+    background-color:chocolate;
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 2px;
+    padding: 10px;
+
+}
+
+.order-time{
+    height:auto;
+    width: auto;
+    background-color:chocolate;
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 2px;
+    padding: 10px;
+
+}
+
+.order-price{
+    height:auto;
+    width: auto;
+    background-color:chocolate;
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 2px;
+    padding: 10px;
+    
+}
+
+.order-status{
+    height:auto;
+    width: auto;
+    background-color:chocolate;
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 2px;
+    padding: 10px;
+
+}
+
+.confirm-details{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.fa-user{
+    font-size: 30px;
+    position:relative;
+    left:1rem;
+    color: rgb(199, 148, 10);
+}

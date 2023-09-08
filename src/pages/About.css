@@ -1,0 +1,52 @@
+.About-section{
+position: relative;
+top:5rem;
+text-align: center;
+width:fit-content;
+padding: 0px 2rem;
+margin: auto;
+border: 2px solid rgb(209 158 22);
+border-radius: 20px;
+margin-bottom: 7rem;
+
+   
+}
+
+.About h1,h2,h3{
+    font-size: 20px;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    background: orange;
+    height:40px;
+    max-height: max-content;
+    padding:10px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+.About p{
+    font-size: 18px;
+    line-height:2rem;
+    line-break:1px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.contact{
+    text-align: center !important;
+    margin-top: 10px !important;
+    
+}
+
+@media(max-width: 480px){
+    .About-section{
+        position: relative;
+        top:10rem;
+        margin-bottom: 1rem !important; 
+    }  
+
+    .About p{
+        font-size:20px; 
+    }
+}

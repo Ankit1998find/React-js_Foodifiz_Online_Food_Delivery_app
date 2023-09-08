@@ -1,0 +1,18 @@
+.Confirm-Order{
+    text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 3rem;
+}
+
+.Confirm-Order p{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Confirm-Order span{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif; 
+}

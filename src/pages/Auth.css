@@ -1,0 +1,135 @@
+.auth-header{
+   
+    height: 100px;
+    display: block;
+    text-align: center;
+}
+
+.auth-header h1{
+ font-size: 25px;
+ font-weight:bold;
+ position: relative;
+ top:3rem;
+ padding: 5px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ line-break: auto;
+   
+}
+
+.auth-line{
+   text-align: center;
+   margin-top: 1rem;
+   background-color: #fff;
+   color: black;
+   
+} 
+
+.auth-line span{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+.auth-input{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag-container{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius:5px;
+    position: relative;
+    top:0.5rem;
+    bottom: 0.2rem;
+}
+
+.flag-container img{
+  height:40px;
+  width: 40px;
+  margin: auto;
+  padding: 4px;
+  border-radius: 2px;
+ 
+
+}
+
+.input{
+    display:flex;
+    position: relative;
+    top:1.7rem;
+}
+
+.input > :nth-child(1) {
+    height: 48px;
+    width: 31px;
+    border: 2px solid black;
+    
+    position: relative;
+    left: 0.2em;
+    border-right: none;
+}
+
+input[type=text] {
+    height: 48px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 3px;
+    border-left: none;
+    border-color: black;
+}
+
+input:focus {
+    outline: none; /* Remove default focus outline */
+   
+}
+
+
+.input span{
+    position: absolute;
+    top:9px;
+    left:2px;
+}
+
+.login-btn{
+    position: relative;
+    top:2.5rem;
+   
+}
+
+.otp-box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top:1rem;
+}
+
+.otp-container p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.error-message{
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    top:1rem;
+    left:1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+@media(max-width: 480px){
+.auth-input{
+    margin: auto;
+    width:250px;
+}
+}
+
+

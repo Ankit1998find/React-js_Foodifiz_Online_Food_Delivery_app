@@ -1,0 +1,30 @@
+.carousel {
+    height: 450px;
+    width: 100%;
+    overflow: hidden; /* Ensure that the image doesn't overflow the container */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center both horizontally and vertically */
+    background-image: url("./banner2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+        
+
+    /* You can also add additional styles like border, box-shadow, etc. */
+}
+
+.carousel img {
+    height:auto;
+    width: auto;
+    max-height:400px;
+  
+    max-width:400px;
+  
+    object-fit: contain;
+
+    display: block; 
+    margin: 0 auto; 
+
+    
+}

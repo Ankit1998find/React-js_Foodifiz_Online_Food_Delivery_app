@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,500;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,600&family=Roboto+Slab&family=Ubuntu:wght@300;400&display=swap');
+
+
+.menucard{
+  padding: 1rem;
+  margin-top: 5rem;
+  max-height:max-content;
+  max-width:max-content;
+  height:400px;
+  width:auto;
+
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+ 
+
+}
+.card:hover{
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+.card-header .image{
+  height: 200px;
+  width: 150px;
+  border-radius: 15px;
+  text-align: center;
+ position:relative;
+ right:0.4rem;
+}
+
+.image img{
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #888888;
+  border: 1px solid  #FF8C00;
+ 
+}
+
+.card-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.card-body .title{
+ align-items: center;
+}
+ 
+.title p{
+  text-align: center;
+  word-spacing:normal;
+  line-break: auto;
+  font-size:18px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px;
+  line-height: 1.5rem;
+  max-height: max-content;
+}
+
+
+.rating span{
+  color:#FF8C00;
+  position: relative;
+  left:3rem;
+  top:2rem;
+}
+
+.order-btn-menu{
+position:relative;
+top:1rem;
+}
+
+@media(max-width: 480px){
+ .menucard{
+  margin: auto;
+  position: relative;
+  top: 130px;
+ }
+
+ .rating span{
+  color:#FF8C00;
+  position: relative;
+  padding: 10px 0px;
+  top:1.5rem;
+  bottom: 2rem;
+  font-size: 20px;
+}
+
+}
+
+
+@media(min-width:481px) and (max-width: 767px) {
+  .menucard{
+    margin: auto;
+    position: relative;
+    top: 130px;
+   }
+   .rating span{
+    color:#FF8C00;
+    position: relative;
+    padding: 10px 0px;
+    top:1.5rem;
+    bottom: 2rem;
+    font-size: 20px;
+  }
+
+}
+
+@media(min-width:768px) and (max-width:1024px){
+  
+  .menucard{
+    margin: auto;
+    position: relative;
+    top: 130px;
+    padding: 0px 12px;
+    margin: 28px auto;
+   }
+
+   .menucard img{
+    width: 150px;
+    margin-top: 2px
+   }
+
+   .card-body{
+    width:100%;
+    padding: auto;
+   }
+
+   .card-footer{
+    width: 100%;
+    padding: 3px;
+    margin: auto;
+   }
+   .rating span{
+    color:#FF8C00;
+    position: relative;
+    padding: 10px 0px;
+    top:1.5rem;
+    bottom: 2rem;
+    font-size: 20px;
+  }
+
+  .footer{
+    display: none;
+  }
+}
+
+
+ 

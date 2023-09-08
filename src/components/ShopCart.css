@@ -1,0 +1,114 @@
+
+.cart-data{
+   display: flex;
+   align-items: center!important;
+   gap:3rem;
+   justify-content: center;
+}
+.cart-description ,.cart-price{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+.address-form{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.address-form span{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.address-form p{
+    position: relative;
+    top:1rem;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.address-form form input[type=text]{
+    border: 1x solid black!important;
+    border-left: 1px solid black!important;
+    padding: 5px;
+    background-color:antiquewhite;
+    width:20%;
+    margin-top: 2rem;
+
+   
+}
+
+.address-form form button{
+    margin-top: 1rem;
+    width: 20%;
+}
+
+.button-order{
+    align-items: center;
+    position: relative;
+    left:4rem;
+}
+
+@media(max-width: 480px){
+    .address-form{
+        margin: auto;
+       
+    }
+
+    form input[type="text"]{
+        width:100% !important;
+      
+    }
+
+    form button{
+        width:100% !important;
+    }
+}
+
+
+
+@media(min-width:481px) and (max-width: 767px) {
+
+    .address-form{
+        margin: auto;
+       
+    }
+
+    form input[type="text"]{
+        width:100% !important;
+      
+    }
+
+    form button{
+        width:100% !important;
+    }
+
+
+}
+
+
+@media(min-width:768px) and (max-width:1024px){
+    
+    .address-form{
+        margin: auto;
+       
+    }
+
+    form input[type="text"]{
+        width:100% !important;
+      
+    }
+
+    form button{
+        width:100% !important;
+    }
+
+
+}

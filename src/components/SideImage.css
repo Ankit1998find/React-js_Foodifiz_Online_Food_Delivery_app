@@ -1,0 +1,14 @@
+.sideimage{
+    position: relative;
+    top:3rem;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    
+}
+
+.sideimage img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
