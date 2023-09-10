@@ -82,7 +82,6 @@
     font-size: 22px;
     font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
-    border: 1px solid #FF8C00;
     text-align: justify;
     
     
@@ -172,7 +171,6 @@
  }
 
  .single-title p{
-  text-align: center;
   word-spacing:normal;
   line-break: auto;
   font-size:18px;
@@ -184,7 +182,7 @@
   max-height: 200px;
   overflow: scroll;
   width:200px;
-  text-align: justify;
+  
   
 
  }

@@ -85,7 +85,7 @@ const ProductList = ({ setProductId }) => {
                   <div className="food-price">
                     <span>₹</span> {product.price}
                   </div>
-                  <button className="btn btn-sm btn-danger order-btn-menu">Order Now</button>
+                  <div className="order-btn-menu"><span className="fa fa-star checked"></span> {product.rating}</div>
                 </div>
                 <div className="rating">
                   <span className="fa fa-star checked"></span>

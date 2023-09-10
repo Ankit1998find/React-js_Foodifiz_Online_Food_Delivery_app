@@ -7,9 +7,7 @@
   margin-top: 5rem;
   max-height:max-content;
   max-width:max-content;
-  height:400px;
   width:auto;
-
   border-radius: 20px;
   border: none;
   cursor: pointer;
@@ -24,11 +22,11 @@
 
 .card-header .image{
   height: 200px;
-  width: 150px;
+  width: auto;
   border-radius: 15px;
   text-align: center;
- position:relative;
- right:0.4rem;
+  position:relative;
+  
 }
 
 .image img{
@@ -73,9 +71,10 @@
   top:2rem;
 }
 
-.order-btn-menu{
-position:relative;
-top:1rem;
+.order-btn-menu,.food-price{
+ position:relative;
+ top:0rem;
+ color: #FF8C00;
 }
 
 @media(max-width: 480px){
