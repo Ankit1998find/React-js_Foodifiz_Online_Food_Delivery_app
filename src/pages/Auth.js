@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Auth.css";
 import { useNavigate } from "react-router-dom";
-import {toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+// import {toast } from 'react-toastify';
+
 
 
 
@@ -27,9 +27,10 @@ const Auth = () => {
 
   const handleContinue = async (event) => {
     event.preventDefault();
-    toast.success("Wait For OTP");
-    toast.info("Wait For OTP");
+    
+   
     try {
+      alert("wait For Otp");
       const response = await axios.post("/api/user/signup", {
         number: phoneNumber,
       });
