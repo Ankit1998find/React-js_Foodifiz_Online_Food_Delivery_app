@@ -113,7 +113,7 @@ const VerifyOtp = () => {
                   <button type="submit" onClick={notify} className="btn btn-danger btn-block">
                    VERIFY
                   </button>
-                  <ToastContainer />
+                
              
                 </div>
               </form>
