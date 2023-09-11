@@ -3,8 +3,7 @@ import axios from "axios";
 import { useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import './VerifyOtp.css'
-import {toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
 
 axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
 
@@ -22,7 +21,7 @@ const VerifyOtp = () => {
 
     const [verificationStatus, setVerificationStatus] = useState(null);
 
-    const notify = () => toast("Wait For Otp");
+   
   
     const handleOtpChange = (event) => {
       const inputOtp = event.target.value;
@@ -30,7 +29,7 @@ const VerifyOtp = () => {
     };
   
     const handleVerify = async (event) => {
-      alert("Wait For OTP");
+      
       event.preventDefault();
      
       
@@ -111,7 +110,7 @@ const VerifyOtp = () => {
                   />
                 </div>
                 <div className="login-btn">
-                  <button type="submit" onClick={notify} className="btn btn-danger btn-block">
+                  <button type="submit"  className="btn btn-danger btn-block">
                    VERIFY
                   </button>
                 
