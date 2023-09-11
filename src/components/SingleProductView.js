@@ -326,7 +326,7 @@ const handleRemove = (indexToRemove) => {
                 <div className="food-price">
                   <span>₹</span> {product.price}
                 </div>
-                <button className="btn btn-danger mt-4" onClick={() => handleFadeIn(product)}>ADD +</button>
+                <button className="btn btn-danger mt-4" onClick={()=>handleFadeIn(product)}>ADD +</button>
               </div>
               <div className="rating">
                 <span className="fa fa-star checked"></span>
