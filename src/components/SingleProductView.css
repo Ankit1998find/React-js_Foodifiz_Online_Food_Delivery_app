@@ -178,7 +178,7 @@
   font-family: 'Times New Roman', Times, serif;
   padding: 5px;
   line-height: 1.5rem;
-  height: auto;
+  height: auto !important;
   max-height: 200px;
   overflow:auto;
   width:200px;
