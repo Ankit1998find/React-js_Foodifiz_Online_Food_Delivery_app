@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Auth.css";
 import { useNavigate } from "react-router-dom";
-import { About } from "./About";
+
 
 axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
 
@@ -104,7 +104,7 @@ const Auth = () => {
         </div>
       </section>
   
-  <About />
+  
     </>
   
   );
