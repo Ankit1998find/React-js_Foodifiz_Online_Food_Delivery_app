@@ -180,7 +180,7 @@
   line-height: 1.5rem;
   height: auto;
   max-height: 200px;
-  overflow: scroll;
+  overflow:auto;
   width:200px;
   
   
@@ -225,7 +225,6 @@
     width: 320px!important;
     margin: auto ;
     position: relative;
-   
     left: 0.5rem !important;
     padding:  10px !important;
     background-color: black;
@@ -262,8 +261,6 @@
     top:460px !important;
     float:right;
     margin-right: 270px;
-    
-   
     padding:  10px !important;
     background-color: black;
   }

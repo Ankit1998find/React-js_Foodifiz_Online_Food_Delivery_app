@@ -21,7 +21,7 @@
 
 .card-header .image{
   height: 200px;
-  width: auto;
+  width: auto !important;
   border-radius: 15px;
   text-align: center;
   position:relative;
@@ -77,12 +77,12 @@
 }
 
 @media(max-width: 480px){
- .menucard{
-  margin: auto;
-  padding: 4rem 4rem; 
-  position: relative;
-  top: 130px;
- }
+  .menucard {
+    margin: auto;
+    padding: 3rem;
+    position: relative;
+    top: 92px;
+  }
 
  .rating span{
   color:#FF8C00;
