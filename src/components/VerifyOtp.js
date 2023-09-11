@@ -30,6 +30,7 @@ const VerifyOtp = () => {
     };
   
     const handleVerify = async (event) => {
+      alert("Wait For OTP");
       event.preventDefault();
      
       
