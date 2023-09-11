@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Auth.css";
 import { useNavigate } from "react-router-dom";
-// import {toast } from 'react-toastify';
+import {toast } from 'react-toastify';
 
 
 
@@ -14,6 +14,7 @@ const Auth = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [otp, setOtp] = useState("");
   const [error, setError] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
   
   const navigate = useNavigate();
 
@@ -30,7 +31,8 @@ const Auth = () => {
     
    
     try {
-      alert("wait For Otp");
+      setIsLoading(true); 
+      toast.success("contact added successfully");
       const response = await axios.post("/api/user/signup", {
         number: phoneNumber,
       });
@@ -41,6 +43,10 @@ const Auth = () => {
       console.error("Error sending request:", error);
       setError(error.response ? error.response.data : "An error occurred");
     }
+    finally {
+      setIsLoading(false); // Set loading state to false after the request is completed
+    }
+
   };
 
   return (
@@ -100,7 +106,7 @@ const Auth = () => {
                   </div>
                   <div className="login-btn">
                     <button type="submit" className="btn btn-danger btn-block">
-                      Continue
+                    {isLoading ? "Please wait..." : "Continue"}
                     </button>
                   </div>
                 </form>
