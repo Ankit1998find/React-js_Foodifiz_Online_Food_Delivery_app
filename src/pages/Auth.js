@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Auth.css";
 import { useNavigate } from "react-router-dom";
-import {toast } from 'react-toastify';
+
 
 
 
@@ -32,7 +32,7 @@ const Auth = () => {
    
     try {
       setIsLoading(true); 
-      toast.success("contact added successfully");
+     
       const response = await axios.post("/api/user/signup", {
         number: phoneNumber,
       });
