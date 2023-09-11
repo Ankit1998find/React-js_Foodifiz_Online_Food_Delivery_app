@@ -4,6 +4,8 @@ import "./Auth.css";
 import { useNavigate } from "react-router-dom";
 
 
+
+
 axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
 
 const Auth = () => {
@@ -48,7 +50,7 @@ const Auth = () => {
               </div>
 
               <div className="auth-line">
-                <span>Log in or sign up</span>
+                <span>Log in or sign In</span>
                 <p className="error-message">{error && error.message}</p>
                 <div className="otp-box">
                   {otp && (
