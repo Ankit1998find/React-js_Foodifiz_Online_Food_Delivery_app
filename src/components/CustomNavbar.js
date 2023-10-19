@@ -10,7 +10,7 @@ const CustomNavbar = ({ token }) => {
 
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary" bg="light" fixed="top">
+      <Navbar expand="lg" className="bg-body-tertiary" bg="light">
         <Container>
           <Navbar.Brand as={Link} to="/">
             <b>FOODIFIZ</b>
